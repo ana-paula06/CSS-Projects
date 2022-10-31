@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url('/background1.svg');
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200vh;    
+}
+/*Barra de navegación */
+nav{
+    border-bottom:  1px solid rgba(97, 97, 97, 0.3);
+    font-family: 'Urbanist', sans-serif;
+    height: 5.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+}
+nav img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+nav a{
+    text-decoration: none;
+    color: #191919;
+    font-size: 1rem;
+}
+.boton-navegacion{
+    border: 1px solid #333333;
+    font-weight: 600;
+    padding: 10px 28px;
+    border-radius: 20px;
+}
+.boton-navegacion a:hover, .navegacion a:hover{
+    color: #8D8DAA;
+}
+.welcome-screen{
+    margin-top: 5px;
+    background-color: rgb(255, 126, 188);
+    width: 70em;
+    height: 40em;
+    
+    background: url('/img-screen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.AboutUs{
+    display: flex;
+    align-items: center;
+    width: 80em;
+    height: 100vh;
+    background-color: #F9FBF2;
+    padding: 0px 10px;
+}
+  .AboutUs .titles_About h1{
+    font-weight: 300;
+    font-size: 5em;
+}
+.AboutUs .content-AboutUs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+  .AboutUs .titles_About h3{
+    font-weight: 400;
+    font-size: 30px;
+  }
+.description_About{
+    font-weight: 200;
+    font-size: 20px;
+    color: #8D8DAA;
+    padding: 10px 0;
+}
+.img-AboutUs img{
+    width: 700px;
+}
+.btn_About{
+    border: 1px solid #333333;
+    width: 250px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 48px;
+}
+.btn_About a{
+    text-decoration: none;
+    color: #191919;
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn_About:hover, .btn_About a:hover{
+    color: white;
+    background: #191919;
+}
+.icons-about{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 500px;
+}
+.icons-about .quality, .icons-about .sup-taste,.icons-about .fast-deli{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-icon{
+    font-weight: 400;
+    font-size: 30px;
+}
+.description-icon{
+    font-weight: 300;
+    color: #333333;
+    font-size: 22px;
+    padding: 0 35px;
+    text-align: center;
+}
+.dishes-title{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dishes-title .dishes-title_Title{
+    font-size: 100px;
+    font-weight: 300;
+}
+.dishes-title .dishes-title_Descrip{
+    width: 880px;
+    font-weight: 300;
+    word-spacing: 2px;
+    color: #333333;
+    font-size: 22px;
+    padding: 0 100px;
+    text-align: center;
+}
+.container-dishes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0;
+    justify-content: center;
+}
+.container-dishes .dishes-items img{
+    width: 350px;
+}
+.container-dishes .dishes-items h4{
+    font-weight: 800;
+    font-size: 30px;
+}
+.container-dishes .dishes-items p{
+    font-weight: 350;
+    font-size: 20px;
+    color: #616161;
+}
+.target-food{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    grid-template-rows: 100vh;
+    justify-content: center;
+}
+.target-food .target-food_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.target-food .target-food_img img{
+    width: 600px;
+}
+.target-food .target-food_content .content-target h4{
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+}
+.target-food .target-food_content .content-target p{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
